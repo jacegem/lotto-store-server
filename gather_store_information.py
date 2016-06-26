@@ -52,7 +52,8 @@ print (data['arr'])
 print ('-------------------------------------------')
 
 for d in data['arr']:
-    print(d)
+    for key in d:
+        print("key:{0}\tdata:{1}".format(key, d[key]))
 
 
 
